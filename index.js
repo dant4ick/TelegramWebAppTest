@@ -17,6 +17,4 @@ addLine(`Your viewport is ${webapp.viewportHeight}px`, container);
 addLine(`Your stable viewport is ${webapp.viewportStableHeight}px`, container);
 addLine(`Your header color is ${webapp.headerColor}`, container);
 addLine(`Your background color is ${webapp.backgroundColor}`, container);
-addLine(`Your text color is ${webapp.themeParams.text_color}`, container);
-container.style.cssText = `color: ${webapp.themeParams.text_color}`;
 documentBody.appendChild(container);
